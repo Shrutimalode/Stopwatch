@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="dark-mode">
+
+   <div class="main-container">
+    <div class="theme-toggle" id="theme-toggle">🌙</div>
+    <h1 class="timer">
+        <div id="hour">00</div>
+        <span>:</span>
+        <div id="minute">00</div>
+        <span>:</span>
+        <div id="second">00</div>
+    </h1>
+
+    <div class="buttons">
+        <div class="row">
+            <button id="resetb">Reset</button>
+            <button id="startb" class="active-button">Start</button>
+            <button id="pauseb">Pause</button>
+        </div>
+        <div class="row">
+            <button id="lapb">Lap</button>
+        </div>
+    </div>
+
+    <ul id="laps"></ul>
+</div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
